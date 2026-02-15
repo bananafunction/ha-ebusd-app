@@ -1,6 +1,6 @@
-# Home Assistant Add-on: eBUSd
+# Home Assistant App: eBUSd
 
-This is to run [ebusd](http://ebusd.eu) as supervisor addon (docker container) in Home Assistant OS.
+This is to run [ebusd](http://ebusd.eu) as app (docker container) in Home Assistant OS.
 
 ## How to run ebusd
 

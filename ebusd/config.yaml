@@ -2,17 +2,17 @@ name: eBUSd
 version: "25.1.0"
 slug: ebusd
 description: >
-  This Add-on runs eBUSd, a daemon for handling communication with eBUS devices
+  This App runs eBUSd, a daemon for handling communication with eBUS devices
   connected to a 2-wire bus system (“energy bus” used by numerous heating systems)
   USB and network eBUSd adapters are supported.
-url: https://community.home-assistant.io/t/an-ebusd-add-on/344852
+url: https://github.com/bananafunction/ha-ebusd-app
 arch:
   - armhf
   - armv7
   - aarch64
   - amd64
   - i386
-image: "ghcr.io/lukasgrebe/ha-addon-ebusd-{arch}"
+image: "ghcr.io/bananafunction/ha-ebusd-app-{arch}"
 init: false
 startup: services
 services:

@@ -1,4 +1,4 @@
-name: Build and Publish Add-on
+name: Build and publish App
 
 on:
   push:
@@ -32,7 +32,7 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build ${{ matrix.arch }} add-on
+      - name: Build ${{ matrix.arch }} app
         if: contains(steps.info.outputs.architectures, matrix.arch)
         uses: home-assistant/builder@2025.09.0
         with:
